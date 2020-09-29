@@ -3,7 +3,7 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=node
 
 ### Bot token config file ###
-config.json
+config
 
 ### Node ###
 # Logs
