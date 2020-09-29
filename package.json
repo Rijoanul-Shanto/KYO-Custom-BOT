@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Rijoanul-Shanto/KYO-Custom-BOT/issues"
   },
-  "homepage": "https://github.com/Rijoanul-Shanto/KYO-Custom-BOT#readme"
+  "homepage": "https://github.com/Rijoanul-Shanto/KYO-Custom-BOT#readme",
+  "dependencies": {
+    "discord.js": "^12.3.1"
+  }
 }
