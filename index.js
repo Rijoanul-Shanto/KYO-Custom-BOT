@@ -5,6 +5,10 @@ const client = new Discord.Client();
 
 const prefix = ">";
 
+client.on("ready", () => {
+  console.log("Knocked You Out!");
+});
+
 client.on("message", function (message) {
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
@@ -13,8 +17,10 @@ client.on("message", function (message) {
   const args = commandBody.split(" ");
   const command = args.shift().toLowerCase();
 
-  if (command === "hello") {
-    message.reply("Hi!");
+  if (command === "hi") {
+    message.reply("Hello!");
+  } else if (command == "avatar") {
+    message.reply(message.author.displayAvatarURL());
   }
 });
 
