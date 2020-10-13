@@ -52,5 +52,3 @@ client.on("message", function (message) {
 });
 
 client.login(process.env.TOKEN);
-
-// console.log(config.BOT_TOKEN);

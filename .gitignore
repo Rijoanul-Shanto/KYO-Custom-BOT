@@ -2,6 +2,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/node
 # Edit at https://www.toptal.com/developers/gitignore?templates=node
 
+### local index ###
+local_index.js
+
 ### Bot token config file ###
 config
 
