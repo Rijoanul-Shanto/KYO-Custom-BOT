@@ -1,17 +1,14 @@
 {
-  "name": "kyo",
-  "version": "1.0.0",
-  "description": "KYO Custom Bot Test",
+  "name": "KYO-CUSTOM-BOT",
+  "version": "1.0.1",
+  "description": "KYO Custom Bot",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Rijoanul-Shanto/KYO-Custom-BOT.git"
-  },
-  "author": "RobertJR",
-  "license": "ISC",
+  "repository": "git+https://github.com/Rijoanul-Shanto/KYO-Custom-BOT.git",
+  "author": "Rijoanul Hasan Shanto",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Rijoanul-Shanto/KYO-Custom-BOT/issues"
   },
@@ -20,6 +17,6 @@
     "discord.js": "^12.5.3"
   },
   "engines": {
-    "node": "v12.18.4"
+    "node": "v14.18.0"
   }
 }
